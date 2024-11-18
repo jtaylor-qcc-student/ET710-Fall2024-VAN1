@@ -33,6 +33,6 @@ form.addEventListener("submit", function(event) {
     new bootstrap.Modal(modal).show();
 
     // Reset the form and validation state
-    form.resest();
+    form.reset();
     form.classList.remove('was-validated');
 });
