@@ -38,7 +38,9 @@ function checkIfHoliday(today = "")
     // 0-11
     let currentMonth = (date.getMonth() + 1);
 
-    if (currentDayOfMonth == 11 && currentMonth == 25) 
+
+    if (currentDayOfMonth == 25 && currentMonth == 11) 
+        outputMsg.textContent = "it's christmas";
     {
         return true;
     }
