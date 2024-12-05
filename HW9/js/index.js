@@ -44,11 +44,7 @@ function checkIfHoliday(today = "")
         }
 
     if (currentDayOfMonth == 25 || 4 || 28)
-    {
-        outputMsg.textContent = "It's Christmas.";
-        outputMsg.textContent = "It's the 4th of July.";
-        outputMsg.textContent = "It's Thanksgiving.";
-    }
+    
        
     return false;
 }
